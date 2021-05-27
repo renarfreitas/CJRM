@@ -1,94 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <title>Quiz | Você consegue acertar qual é o filme pelo título em português de Portugal?</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Quiz | Sobre JavaScritp</title>
 </head>
 <body>
-  <div class="intro py-3 bg-primary text-center">
-    <div class="container">
-      <h2 class="text-light display-3 my-4">Quiz</h2>
+    <div>
+        <div class="container">
+            <h2>QUIZ</h2>
+        </div>
     </div>
-  </div>
 
-  <div class="quiz py-4 bg-dark">
-    <div class="container">
-      <h2 class="my-5 text-white">Você consegue acertar qual é o filme pelo título em português de Portugal?</h2>
+    <div>
+        <div class="container">
+            <h2>Curiosidades sobre o JavaScript</h2>
+            
+            <form class="quiz-form">
+                <div class="container">
+                    <div>
+                        <p>
+                            1. O JavaScript foi concebido para rodar no servidor. Com o passar do tempo isso foi modificado e, hoje, o JavaScript é uma linguagem?:
+                        </p>
+                        <label class="label">
+                            <input type="radio" name="Choice1" value="A">
+                            Server-side
+                        </label>
+                    </div>
+                    <div>
+                        <label class="label">
+                            <input type="radio" name="Choice1" value="B">
+                            Client-side
+                        </label>
+                    </div>
+                </div>
 
-      <form class="quiz-form text-light">
-        <div class="my-5">
-          <p class="lead font-weight-normal">1. "O Mal Disposto" é o nome dado para o filme:</p>
-          <div class="form-check my-2 text-white-50">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion1" value="A" checked>
-              Psicose
-            </label>
-          </div>
-          <div class="form-check my-2 text-white-50">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion1" value="B">
-              Meu Malvado Favorito
-            </label>
-          </div>
+                <div class="container">
+                    <div>
+                        <p>
+                            2. Quando o JavaScript foi criado?:
+                        </p>
+                        <label class="label">
+                            <input type="radio" name="Choice2" value="A">
+                            Meados de 1995, por Brendan Eich.
+                        </label>
+                    </div>
+                    <div>
+                        <label class="label">
+                            <input type="radio" name="Choice2" value="B">
+                            Na WW2, pelo General Brandon Lee.
+                        </label>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div>
+                        <p>
+                            3. É correto afirmar que o JavaScript é uma versão simplificada do Java?
+                        </p>
+                        <label class="label">
+                            <input type="radio" name="Choice3" value="A">
+                            Não
+                        </label>
+                    </div>
+                    <div>
+                        <label class="label">
+                            <input type="radio" name="Choice3" value="B">
+                            Sim
+                        </label>
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div>
+                                            <p>
+                        4. Existem versões de JavaScript? Ex:(2.0 ou 2.1):
+                    </p>
+                        <label class="label">
+                            <input type="radio" name="Choice4" value="A">
+                            Sim
+                        </label>
+                    </div>
+                    <div>
+                        <label class="label">
+                            <input type="radio" name="Choice4" value="B">
+                            Não
+                        </label>
+                    </div>
+                </div>
+
         </div>
+    
+                <div class="button">
+                    <button type="submit">Enviar</button>
+                </div>
 
-        <div class="my-5">
-          <p class="lead font-weight-normal">2. "O Aviso" é o nome dado para o filme de terror:</p>
-          <div class="form-check my-2 text-white-50">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion2" value="A" checked>
-              O Grito
-            </label>
-          </div>
-          <div class="form-check my-2 text-white-50">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion2" value="B">
-              O Chamado
-            </label>
-          </div>
-        </div>
+            </form>
 
-        <div class="my-5">
-          <p class="lead font-weight-normal">3. "Uma Família a Beira de um Ataque de Nervos" é o título de:</p>
-          <div class="form-check my-2 text-white-50">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion3" value="A" checked>
-              Família do Bagulho
-            </label>
-          </div>
-          <div class="form-check my-2 text-white-50">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion3" value="B">
-              Pequena Miss Sunshine
-            </label>
-          </div>
         </div>
-
-        <div class="my-5">
-          <p class="lead font-weight-normal">4. "O Rei dos Gazeteiros" é o famoso filme:</p>
-          <div class="form-check my-2 text-white-50">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion4" value="A" checked>
-              O Lobo de Wall Street
-            </label>
-          </div>
-          <div class="form-check my-2 text-white-50">
-            <label class="form-check-label">
-              <input type="radio" name="inputQuestion4" value="B">
-              Curtindo a Vida Adoidado
-            </label>
-          </div>
-        </div>
-        
-        <div class="text-center">
-          <button class="btn bg-primary text-light">Enviar</button>
-        </div>
-      </form>
-    </div>
-  </div>
-
-  <script src="./app.js"></script>
+    
+    <script src="./app.js"></script>
 </body>
 </html>

@@ -1,0 +1,26 @@
+body {
+  background-color: lightblue;
+}
+  
+h2 {
+  color:black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.button {
+  text-align: center;
+  flex: content
+}
+
+.score {
+  text-align: center;
+  text-decoration: red;
+}
+  
+  
